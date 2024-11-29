@@ -9,6 +9,10 @@ import people from './assets/people.svg'
 import './index.css'
 import Test from './Testimonial.jsx'
 import Support from './Support.jsx'
+import Faq from './Faq.jsx'
+import Cards from './Cards.jsx'
+
+
 
 
 
@@ -53,6 +57,7 @@ const Navigation = () =>{
 const Values = () => {
   return (
     <div className='pt-5 '>
+      <div className='h-[100px]'></div>
       <h1 className='pl-8 py-6 text-4xl font-sora font-semibold'>Our Values</h1>
       <p className='pl-8 w-[90%] text-[#8d8d8d] '>Our journey is one of relentless progress and transformation. We began as a passionate group with a vision, dedicated to building an educational platform that redefines the boundaries of traditional financial learning.</p>
       
@@ -173,8 +178,11 @@ const About = () => {
       
       </div> 
       <Values />
+      <Cards />
       <Test />
       <Support />
+      <Faq />
+      
     </>
   )
 }
