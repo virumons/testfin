@@ -93,6 +93,10 @@ const Cards = () => {
   return (
     <div className="bgadd min-h-screen">
       <div className="h-40"></div>
+      <div className="my-4 flex flex-col justify-center items-center">
+      <h1 className='text-3xl font-bold py-2'>Navigating the Finwise School Experience</h1>
+        <p className='text-[#888888]'>Navigating the Finwise School process is simple and designed to guide you toward financial success. Here's a step-by-step overview</p>
+      </div>
       <div className="max-w-5xl mx-auto flex flex-col gap-8">
         {cards.map((card) => (
           <Card key={card.id} {...card} />

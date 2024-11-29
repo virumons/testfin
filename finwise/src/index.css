@@ -28,6 +28,30 @@ body{
     background-repeat: no-repeat;
     /* background-attachment: fixed; */
 }
+.bgresrc{
+    background-image: url('./assets/resrcsmen.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+@media(max-width:768px){
+    .bgresrc{
+        background-image: none;
+        /* background-color: transparent; */
+    }
+}
+.bgresrcads{
+    background-image: url('./assets/booksall.svg');
+    background-position: right;
+    background-repeat: no-repeat;
+}
+@media(max-width:768px){
+    .bgresrcads{
+        background-image: url('./assets/booksall.svg');
+        background-position: bottom;
+        background-size:90% 40%;
+        background-repeat: no-repeat;
+    }
+}
 .navadd{
     background-color: transparent;
     position:absolute;
