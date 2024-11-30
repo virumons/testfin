@@ -33,6 +33,12 @@ body{
     background-position: right;
     background-repeat: no-repeat;
 }
+.bgaddsab{
+    background-image: url('./assets/aboutback.png');
+    background-position:center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 @media(max-width:768px){
     .bgresrc{
         background-image: none;
